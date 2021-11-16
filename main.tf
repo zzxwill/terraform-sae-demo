@@ -44,7 +44,7 @@ resource "alicloud_sae_application" "image" {
 
   package_type = "Image"
   timezone = "Asia/Shanghai"
-  replicas = "5"
+  replicas = "1"
   cpu = "500"
   memory = "2048"
 
