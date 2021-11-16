@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "alicloud" {
-  region = "cn-hangzhou"
+  region = "cn-bejing"
 }
 
 resource "random_uuid" "this" {}
