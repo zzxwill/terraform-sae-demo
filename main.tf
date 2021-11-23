@@ -18,7 +18,7 @@ locals {
 }
 
 resource "alicloud_sae_application" "auto" {
-  count = 0
+  count = 1
   app_name = local.default_name
   app_description = local.default_description
   auto_config = true
